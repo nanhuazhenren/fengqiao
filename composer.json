@@ -1,9 +1,9 @@
 {
     "name": "nanhuazhenren/fengqiao",
-    "description": "sf express api docking",
-    "type": "1",
+    "description": "sf express api packet",
+    "type": "library",
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.40"
     },
     "license": "Mit",
     "authors": [
@@ -12,5 +12,10 @@
             "email": "vcanson@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nanhuazhenren\\Fengqiao\\": "src/"
+        }
+    }
 }
